@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class GradeCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -32,12 +31,9 @@ public class GradeCalculator {
         } else {
             grade = "F";
         }
-
-        // Display results
-        System.out.println("Total Marks are: " + totalMarks);
+    System.out.println("Total Marks are: " + totalMarks);
         System.out.println("Average Percentage is: " + averagePercentage + "%");
         System.out.println("FiNAL Grade: " + grade);
-
-        input.close();
+   input.close();
     }
 }
